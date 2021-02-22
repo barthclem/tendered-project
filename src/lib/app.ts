@@ -2,7 +2,6 @@ import * as express from "express";
 import * as strongErrorHandler from "strong-error-handler";
 import { json } from "body-parser";
 
-// import { userRouterFactory } from "./users/userRouterFactory";
 import { UserRoute } from './users/user.route';
 import { CompanyRoutes } from './company/company.route'
 import { TaskRequestRoute } from "./request/request.route";
